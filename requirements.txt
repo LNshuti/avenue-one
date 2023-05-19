@@ -3,4 +3,7 @@ openai
 streamlit
 streamlit-chat
 semantic-kernel 
-elinks
+einops
+sentencepiece
+torch
+transformers
