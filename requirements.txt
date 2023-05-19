@@ -3,3 +3,5 @@ openai
 streamlit
 streamlit-chat
 semantic-kernel
+firefox 
+elinks
