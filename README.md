@@ -47,3 +47,6 @@ The purpose of this project is to demonstrates how to build and deploy a full st
 
 ### Architecture
 [architecture](architecture.svg)
+
+### References
+This project was influenced by the LLamacademy python package on Github(https://github.com/danielgross/LlamaAcademy). Special appreciation to Daniel Gross for making his work available. 
