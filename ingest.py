@@ -83,7 +83,25 @@ def save_data_to_s3(data, bucket_name):
     # Save the Parquet file to S3
     bucket.upload_fileobj(pq_buffer, path)
 
+
 def main():
     zillow_api_key = "your_zillow_api_key"
     realtor_api_key = "your_realtor_api_key"
-    aws_access_key = "
+    aws_access_key = "your_aws_access_key"
+    aws_secret_key = "your_aws_secret_key"
+    s3_bucket_name = "your_s3_bucket_name"
+
+    # Fetch data from Zillow API
+    zillow_data = fetch_data_from_zillow(zillow_api_key)
+    if zillow_data is not None:
+        # Save Zillow data to AWS S3 bucket
+        save_data_to_s3(zillow_data, s3_bucket_name)
+
+    # Fetch data from Realtor.com API
+    realtor_data = fetch_data_from_realtor(realtor_api_key)
+    if realtor_data is not None:
+        # Save Realtor.com data to AWS S3 bucket
+        save_data_to_s3(realtor_data, s3_bucket_name)
+
+if __name__ == "__main__":
+    main()
