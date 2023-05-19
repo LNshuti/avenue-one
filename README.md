@@ -1,5 +1,5 @@
 # Avenue-One: Real Estate Valuation Automated
-The purpose of this project is to build a full-stack application that demonstrates the power of machine learning in automating real estate valuation. With a focus on the real estate sector, this project showcases the end-to-end process of data gathering, model development, deployment, automation, and frontend development. By leveraging Python, SQL, and machine learning libraries, a real estate deal valuation model is built and deployed as an API endpoint on AWS. The application also incorporates an automated data pipeline, user-friendly frontend interface, and thorough testing and validation processes.
+The purpose of this project is to demonstrates how to build and deploy a full stack application. The application covers all the areas necessary when building ML applications from data gathering, model development, deployment, automation, and frontend development. By leveraging Python, SQL, and machine learning libraries, a real estate deal valuation model is built and deployed as an API endpoint on AWS. The application also incorporates an automated data pipeline, user-friendly frontend interface, and thorough testing and validation processes.
 
 **Step 1: Data Gathering and Preparation**
 1. Identify and acquire relevant real estate data sources, such as property listings, historical sales data, or market trends.
