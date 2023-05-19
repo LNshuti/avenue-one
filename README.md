@@ -43,3 +43,7 @@ The purpose of this project is to demonstrates how to build and deploy a full st
 **Step 10: Maintenance and Continuous Improvement**
 1. Establish a maintenance plan to address bug fixes, updates, or enhancements.
 2. Continuously monitor and evaluate the system's performance, incorporating user feedback and making improvements as needed.
+
+
+### Architecture
+[architecture](architecture.svg)
