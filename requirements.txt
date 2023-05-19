@@ -2,6 +2,5 @@ langchain
 openai
 streamlit
 streamlit-chat
-semantic-kernel
-firefox 
+semantic-kernel 
 elinks
