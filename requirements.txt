@@ -3,6 +3,7 @@ openai
 streamlit
 streamlit-chat
 semantic-kernel 
+polars
 einops
 sentencepiece
 torch
@@ -10,4 +11,5 @@ transformers
 pytorch 
 torchvision
 torchaudio
-cudatoolkit=11.3 
+torchmetrics
+composer
